@@ -1,0 +1,117 @@
+
+html,
+body
+{
+    background-image: url(https://media.comicbook.com/2021/08/naruto-1279823.jpeg?auto=webp&width=1200&height=628&crop=1200:628,smart);
+    background-position:center;
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+#sta
+{
+    font-size: 4rem;
+    color:white;
+    text-align: center;
+    position: static;
+    
+   
+}
+.container
+{
+    display: flex;
+    flex-wrap:wrap;
+   justify-content: space-between;
+   
+}
+.box
+{
+    background-color: antiquewhite;
+    border: 7px solid black;
+    padding :50px;
+    margin:100px;
+    height: 200px;
+    width: 250px;
+    border-radius: 70px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .nar:hover
+  {
+    color: transparent;
+  background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/Naruto-Sage-Mode.jpg);
+ 
+
+}
+.sas:hover
+{
+    color: transparent;
+    background-image: url(https://static.wikia.nocookie.net/d6cb91e2-47c0-4288-95c4-d7d62cd53b6d/scale-to-width/755);
+}
+.shi:hover
+{
+    color: transparent;
+    background-image: url(https://www.looper.com/img/gallery/the-real-reason-shikamaru-was-created-in-naruto/l-intro-1648415351.jpg);
+}
+.ita:hover
+{
+    color: transparent;
+    background-image: url(https://i.pinimg.com/564x/ff/de/77/ffde776a1c6719a6ed8dbb4a1b1a54e1.jpg);
+}
+.kak:hover
+{
+    color: transparent;
+    background-image: url(https://i.pinimg.com/originals/bc/27/6f/bc276ff73e30a5f50c493aeb685edb90.png);
+}
+.obi:hover
+{
+    color: transparent;
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-03f4fde6a8973bccaedc31f96d679287-pjlq);
+}
+.all
+{
+    
+    background-repeat:round;
+    background-size: auto;
+}
+.zone
+{
+    
+        cursor:pointer;
+        color:transparent;
+        font-size:2em;
+        border-radius:4px;
+        border:1px solid;
+        transition: all 0.3s linear;
+}
+footer{
+     margin-left: 660px;
+     
+}
+#second
+{
+    color: white;
+      font-size: 3rem;
+      text-align:center;    
+}
+img {
+    float: left;
+    width:  60px;
+    height: 60px;
+    object-fit: cover;
+    border-left:20px;
+}
+#git
+{
+    border-radius: 70px;
+}
+#twit
+{
+    border-radius: 70px;
+}
